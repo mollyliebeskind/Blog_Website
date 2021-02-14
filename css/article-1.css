@@ -12,9 +12,24 @@
     "footer";
 }
 
-a {
+a:link {
     text-decoration: none;
+    color: blue;
 }
+
+a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
 
 /* Typography */
 body {
@@ -37,7 +52,8 @@ p {
     font-size: 1rem;
     font-weight: medium;
     flex: 1; 
-    line-height: 1.2;
+    line-height: 1.6;
+    margin: 2rem 0rem 2rem 0rem;
 }
 
 .author {
@@ -47,6 +63,12 @@ p {
 
 span {
     color: #FF6B6B;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 5% 10% 5% 10%;
 }
 
 /* Navigation */
@@ -96,6 +118,7 @@ span {
     display: flex;
     flex-direction: column;
     margin: 2% 5% 2% 5%;
+    justify-content: start;
 
 }
 
@@ -114,33 +137,37 @@ span {
 .social-links {
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    height: 25px;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center center;
+    top: 0px;
+}
+
+.social-icon:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  }
 
 #facebook-icon {
     background-image: url(../images/facebook-icon.png);
-    background-size: cover;
-    background-position: center center;
-    width: 25px;
 }
 
 #twitter-icon {
     background-image: url(../images/twitter-icon.png);
-    background-size: cover;
-    background-position: center center;
-    width: 25px;
 }
 
 #linkedin-icon {
     background-image: url(../images/linkedin-icon.png);
-    background-size: cover;
-    background-position: center center;
-    width: 25px;
 }
 
 #icon-bar {
-    width: 70%;
+    width: 80%;
 }
 
 .thumb {
@@ -149,8 +176,8 @@ span {
     margin: 5% 0% 5% 0%;
     justify-content: space-evenly;
 }
-#img1 {
-    background: url(../images/obx.PNG);
+
+.thumb-image {
     padding: 0% 0% 50% 0%;
     background-size: cover;
     background-position: center center;
@@ -225,7 +252,8 @@ span {
 }
 
 #img1 {
-    background-image: url(../images/obx.PNG);
+    background-image: url(../images/park-city-all.jpg);
+    background-position: center top;
 }
 
 #img2 {
@@ -233,7 +261,7 @@ span {
 }
 
 #img3 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/bec.jpg);
 }
 
 #img4 {
@@ -241,7 +269,7 @@ span {
 }
 
 #img5 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/dantopia.png)
 }
 
 #img6 {
@@ -296,6 +324,93 @@ span {
     background: #ffbc00;
     font-weight: bold;
     font-size: .8rem;
+}
+
+.in-article-images {
+    padding: 0px 0px 400px 0px;
+    width: 400px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px 0px 0px 20px;
+    background-size: contain;
+}
+
+
+#pc-pic1 {
+    background-image: url(../images/park-city-dad.jpg);
+}
+
+#pc-pic2 {
+    background-image: url(../images/park-city-mj.jpg);
+}
+
+#pc-pic3 {
+    background-image: url(../images/park-city-tom.jpg);
+}
+
+#hannah-pic-1 {
+    background-image: url(../images/h-bday.jpg);
+}
+
+#hannah-pic-2 {
+    background-image: url(../images/dan-wedding.jpg);
+}
+
+#hannah-pic-3 {
+    background-image: url(../images/marathon.jpg);
+}
+
+#hannah-pic-4 {
+    background-image: url(../images/pork-yom-kippur.jpg);
+}
+
+#hannah-pic-5 {
+    background-image: url(../images/lichi.jpg);
+}
+
+#hannah-pic-6 {
+    background-image: url(../images/skication-2018.jpg);
+}
+
+#hannah-pic-7 {
+    background-image: url(../images/sisters.jpg);
+}
+
+#hannah-pic-8 {
+    background-image: url(../images/gmen.jpg);
+}
+
+#hannah-pic-9 {
+    background-image: url(../images/laura-wedding.jpg);
+}
+
+#hannah-pic-10 {
+    background-image: url(../images/san-diego.jpg);
+}
+
+#bec2 {
+    background-image: url(../images/bec2.jpg);
+}
+
+#bec3 {
+    background-image: url(../images/bec3.jpg);
+    transform: rotate(90deg);
+}
+
+#bec4 {
+    background-image: url(../images/bec4.jpg);
+    transform: rotate(90deg);
+}
+
+#bec5 {
+    background-image: url(../images/bec5.jpg);
+    transform: rotate(90deg);
+}
+
+#bec6 {
+    background-image: url(../images/bec6.jpg);
+    transform: rotate(90deg);
 }
 
 /* Footer */

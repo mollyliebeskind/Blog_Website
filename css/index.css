@@ -162,7 +162,8 @@ a {
 }
 
 #img1 {
-    background-image: url(../images/obx.PNG);
+    background-image: url(../images/park-city-all.jpg);
+    background-position: center top;
 }
 
 #img2 {
@@ -170,16 +171,15 @@ a {
 }
 
 #img3 {
-    background-image: url(../images/dantopia.png);
+    background-image: url(../images/bec.jpg);
 }
 
 #img4 {
     background-image: url(../images/fall_picture.jpg);
-    transform: rotate(20deg)
 }
 
 #img5 {
-    background-image: url(../images/bec2.jpg);
+    background-image: url(../images/dantopia.png)
 }
 
 #img6 {
@@ -257,8 +257,6 @@ a {
 }
 
 
-
-
 @media (min-width: 600px) {
 
     .content {
@@ -294,16 +292,13 @@ a {
     }
 
     #item3,
-    #item6 {
+    #item6,
+    #item7,
+    #item8,
+    #item9 {
         display: flex;
         flex-direction: column;
         justify-content: start;
-        text-decoration: none;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        position: relative;
-        transition: all .1s ease-in;
-        top: 0;
-        color: #1A535C;
     }
 
     #item3 .bar-thumb,
@@ -317,14 +312,12 @@ a {
         margin: 20px 20px 0px 20px;
     }
 
-    .article-description {
-        margin: 20px 20px 20px 20px;
+    #img5 {
+        background-position: 100% 2%;
     }
 
-    #item7,
-    #item8,
-    #item9  {
-    display: block;
+    .article-description {
+        margin: 20px 20px 20px 20px;
     }
 }
 
@@ -363,11 +356,22 @@ a {
         display: none;
     }
 
+    #item1 p,
+    #item2 p,
+    #item5 p {
+        flex: 0;
+    }
+    
+    
     #item6 .bar-thumb,
     #item7 .bar-thumb,
     #item8 .bar-thumb,
     #item9 .bar-thumb {
         display: none;
+    }
+
+    #img5 {
+        background-position: 100% 2%;
     }
     
 |
