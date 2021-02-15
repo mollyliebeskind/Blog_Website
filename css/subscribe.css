@@ -124,6 +124,7 @@ a {
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
   }
 
+
 #item1 {
     background: #1A535C;
     color: white;
@@ -162,7 +163,8 @@ a {
 }
 
 #img1 {
-    background-image: url(../images/obx.PNG);
+    background-image: url(../images/park-city-all.jpg);
+    background-position: center top;
 }
 
 #img2 {
@@ -170,7 +172,7 @@ a {
 }
 
 #img3 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/bec.jpg);
 }
 
 #img4 {
@@ -178,7 +180,7 @@ a {
 }
 
 #img5 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/dantopia.png)
 }
 
 #img6 {
