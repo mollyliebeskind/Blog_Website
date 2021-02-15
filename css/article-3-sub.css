@@ -1,0 +1,23 @@
+#bec2 {
+    background-image: url(../images/bec2.jpg);
+}
+
+#bec3 {
+    background-image: url(../images/bec3.jpg);
+    transform: rotate(90deg);
+}
+
+#bec4 {
+    background-image: url(../images/bec4.jpg);
+    transform: rotate(90deg);
+}
+
+#bec5 {
+    background-image: url(../images/bec5.jpg);
+    transform: rotate(90deg);
+}
+
+#bec6 {
+    background-image: url(../images/bec6.jpg);
+    transform: rotate(90deg);
+}
