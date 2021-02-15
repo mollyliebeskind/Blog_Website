@@ -1,0 +1,30 @@
+#dressup-1 {
+    background-image: url(../images/dressup-2.jpg);
+    transform: rotate(90deg);
+}
+
+#dressup-2 {
+    background-image: url(../images/dressup-3.jpg);
+    transform: rotate(90deg);
+}
+
+#dressup-3 {
+    background-image: url(../images/dressup-4.jpg);
+    transform: rotate(90deg);
+}
+
+#dressup-4 {
+    background-image: url(../images/dressup-5.jpg);
+    transform: rotate(90deg);
+}
+
+#dressup-5 {
+    background-image: url(../images/dressup-6.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+#dressup-6 {
+    background-image: url(../images/dressup-8.jpg);
+    transform: rotate(90deg);
+}

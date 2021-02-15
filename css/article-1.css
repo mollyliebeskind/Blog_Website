@@ -2,6 +2,7 @@
 @import url("article-2-sub.css");
 @import url("article-3-sub.css");
 @import url("article-4-sub.css");
+@import url("article-5-sub.css");
 
 
 /* Over arching elements */
@@ -295,11 +296,12 @@ blockquote {
 }
 
 #img6 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/dressup-1.jpg);
+    background-position: 100% 25%;
 }
 
 #img7 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/dressup-1.jpg);
 }
 
 #img8 {
