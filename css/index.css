@@ -124,7 +124,7 @@ a {
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
   }
 
-#item1 {
+  #item1 {
     background: #1A535C;
     color: white;
 }
@@ -151,6 +151,18 @@ a {
 }
 
 #item6 {
+    background: white;
+    color: #1A535C;
+    border: 1px solid  rgba(26,83,92,0.2)
+}
+
+#item7 {
+    background: white;
+    color: #1A535C;
+    border: 1px solid  rgba(26,83,92,0.2)
+}
+
+#item8 {
     background: white;
     color: #1A535C;
     border: 1px solid  rgba(26,83,92,0.2)
@@ -189,19 +201,23 @@ a {
 }
 
 #img6 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/dressup-1.jpg);
+    background-position: 100% 25%;
 }
 
 #img7 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/mj-1.jpg);
+    background-position: 100% 90%;
 }
 
 #img8 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/dad1.jpg);   
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 #img9 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/san-diego.jpg);
 }
 
 .details {
