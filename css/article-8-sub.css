@@ -1,0 +1,34 @@
+#funfact1 {
+    background-image: url(../images/funfact1.jpg);
+    transform: rotate(90deg);
+}
+
+#funfact2 {
+    background-image: url(../images/funfact2.jpg);
+    transform: rotate(90deg);
+}
+
+#funfact3 {
+    background-image: url(../images/funfact3.jpg);
+    transform: rotate(90deg);
+}
+
+#funfact4 {
+    background-image: url(../images/funfact4.jpg);
+    transform: rotate(90deg);
+}
+
+#funfact5 {
+    background-image: url(../images/funfact5.jpg);
+    transform: rotate(90deg);
+}
+
+#funfact6 {
+    background-image: url(../images/funfact6.jpg);
+    transform: rotate(90deg);
+}
+
+#funfact8 {
+    background-image: url(../images/funfact8.jpg);
+    background-size: cover;
+}
