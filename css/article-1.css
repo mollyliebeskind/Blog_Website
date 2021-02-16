@@ -4,6 +4,7 @@
 @import url("article-4-sub.css");
 @import url("article-5-sub.css");
 @import url("article-6-sub.css");
+@import url("article-7-sub.css");
 
 
 /* Over arching elements */
@@ -199,17 +200,30 @@ blockquote {
     grid-area: author-bio;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+
     margin: 2% 5% 2% 5%;
 }
 
 .author-image {
     padding: 0px 0px 200px 00px;
-    height: auto;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+}
+
+.image-collage {
+    display: flex;
+    flex-direction: column;
+}
+
+.collage-image {
+    padding: 0px 0px 200px 00px;
+    height: 100px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0% 2% 2% 0%;
 }
 
 .additional-content {
@@ -262,6 +276,23 @@ blockquote {
 #item5 {
     background: #1A535C;
     color: white;
+}
+
+#item6 {
+    background: white;
+    color: #1A535C;
+    border: 1px solid  rgba(26,83,92,0.2)
+}
+
+#item7 {
+    background: white;
+    color: #1A535C;
+    border: 1px solid  rgba(26,83,92,0.2)
+}
+#item8 {
+    background: white;
+    color: #1A535C;
+    border: 1px solid  rgba(26,83,92,0.2)
 }
 
 .card {
@@ -424,6 +455,12 @@ blockquote {
 
     .author-info {
         flex: 1;
+    }
+    
+    .image-collage {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
 
