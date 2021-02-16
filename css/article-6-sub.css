@@ -1,0 +1,34 @@
+#mj-2 {
+    background-image: url(../images/mj-5.jpg);
+}
+
+#mj-3 {
+    background-image: url(../images/mj-7.jpg);
+}
+
+#mj-4 {
+    background-image: url(../images/mj-4.jpg);
+    transform: rotate(90deg);
+}
+
+#mj-5 {
+    background-image: url(../images/mj-2.jpg);
+}
+
+#mj-6 {
+    background-image: url(../images/mj-3.jpg);
+    width: 65%;
+    background-size: contain;
+}
+
+#mj-7 {
+    background-image: url(../images/mj-8.jpg);
+}
+
+#mj-8 {
+    background-image: url(../images/mj-6.jpg);
+}
+
+#mj-9 {
+    background-image: url(../images/mj-9.jpg);
+}
