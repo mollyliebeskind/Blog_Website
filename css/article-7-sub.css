@@ -1,0 +1,69 @@
+#dad1 {
+    background-image: url(../images/dad3.jpg);
+    transform: rotate(90deg);
+    background-size: cover;
+    padding: 0px 0px 200px 00px;
+    height: 100px;
+    width: 300px;
+}
+
+#dad2 {
+    background-image: url(../images/dad5.jpg);
+}
+
+#dad3 {
+    background-image: url(../images/dad6.jpg);
+}
+
+#dad4 {
+    background-image: url(../images/dad7.jpg);
+}
+
+#dad5 {
+    background-image: url(../images/dad8.jpg);
+    transform: rotate(90deg);
+}
+
+#dad6 {
+    background-image: url(../images/dad9.jpg);
+    transform: rotate(180deg);
+}
+
+#dad7 {
+    background-image: url(../images/dad10.jpg);
+    transform: rotate(90deg);
+}
+
+#dad8 {
+    background-image: url(../images/dad11.jpg);
+}
+
+#dad9 {
+    background-image: url(../images/dad12.jpg);
+    transform: rotate(90deg);
+}
+
+#dad10 {
+    background-image: url(../images/dad16.jpg);
+}
+
+#dad11 {
+    background-image: url(../images/dad17.jpg);
+    transform: rotate(90deg);
+}
+
+#dad12 {
+    background-image: url(../images/dad18.jpg);
+    transform: rotate(90deg);
+    background-position: 0px 0px;
+}
+
+#dad13 {
+    background-image: url(../images/dad20.jpg);
+    transform: rotate(90deg);
+}
+
+#dad14 {
+    background-image: url(../images/dad21.jpg);
+    transform: rotate(90deg);
+}
