@@ -5,6 +5,7 @@
 @import url("article-5-sub.css");
 @import url("article-6-sub.css");
 @import url("article-7-sub.css");
+@import url("article-8-sub.css");
 
 
 /* Over arching elements */
@@ -289,6 +290,7 @@ blockquote {
     color: #1A535C;
     border: 1px solid  rgba(26,83,92,0.2)
 }
+
 #item8 {
     background: white;
     color: #1A535C;
@@ -344,7 +346,7 @@ blockquote {
 }
 
 #img9 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/san-diego.jpg);
 }
 
 .details {
