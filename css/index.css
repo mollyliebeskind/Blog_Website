@@ -150,6 +150,12 @@ a {
     color: white;
 }
 
+#item6 {
+    background: white;
+    color: #1A535C;
+    border: 1px solid  rgba(26,83,92,0.2)
+}
+
 .card {
     background: red;
 }
