@@ -3,6 +3,7 @@
 @import url("article-3-sub.css");
 @import url("article-4-sub.css");
 @import url("article-5-sub.css");
+@import url("article-6-sub.css");
 
 
 /* Over arching elements */
@@ -301,11 +302,14 @@ blockquote {
 }
 
 #img7 {
-    background-image: url(../images/dressup-1.jpg);
+    background-image: url(../images/mj-1.jpg);
+    background-position: 100% 90%;
 }
 
 #img8 {
-    background-image: url(../images/fall_picture.jpg);
+    background-image: url(../images/dad1.jpg);   
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 #img9 {
