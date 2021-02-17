@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
     <title>LiebeskindNEWS - M & J</title>
     <link rel="stylesheet" href="../css/article-1.css">
+    <script src="../js/index.js"></script>
 </head>
 <body>
     <div class="main-container">
@@ -90,15 +91,18 @@
         <div class="additional-content">
             <div id="item4" class="article-card">
                 <div class="article-description">
-                    <h2 class="subscription-title">Sign up to receive the Liebeskind<span>NEWS</span> monthly letter!</h2>
-                    <p class="article-snippet">
-                        Never miss a beat! Stay connected through our monthly updates that bring important information right to  you!
+                    <h2 class="subscription-title" id="subscription-head">
+                        Sign up to receive the Liebeskind<span>NEWS</span> monthly letter!
+                    </h2>
+                    <p class="article-snippet" id="subscription-body">
+                        Never miss a beat! Stay connected through our monthly updates 
+                        that bring important information right to  you!
                     </p>
-                    <div class="subscription">
+                    <div class="subscription" id="subscription-box">
                         <input type="text" name="subscription-box" class="subscription-box" placeholder="Enter your email" required>
                     </div>
-                    <div class="subscription">
-                        <input type="submit" value="Subscribe!" class="submit-button">
+                    <div class="subscription" id="subscription-button">
+                        <input type="submit" value="Subscribe!" class="submit-button" onclick=" return changeSubscription()">
                     </div>
                 </div>
             </div>
@@ -128,25 +132,19 @@
                     <div class="author">Seamore Butts</div>
                 </div>
             </a>
-            <a href="article-3.html" id="item3" class="article-card">
-                <img class="bar-thumb" id="img3"></img>
+            <a href="article-8.html" id="item9" class="article-card">
+                <img class="bar-thumb" id="img9"></img>
                 <div class="article-description">
-                    <h2 class="article-title">From Jingle Bells To Wedding Bells</h2>
+                    <h2 class="article-title">Fun Facts You Didn't Know</h2>
                     <p class="article-snippet">
-                        Love is in the air this Valentine's day as family celebrity couple 
-                        Bom (Bec and Tom) get engaged - adding 4 new critters to the 
-                        Liebeskind clan. See their story and the critters here. 
+                        Extra tid-bits and joys about the Dream Team 
+                        for you to enjoy.
                     </p>
                     <div class='details'>
                         <p>
-                            Detail line 1<br><br>
-                            Detail line 2<br><br>
-                            Detail list
-                            <ul>
-                                <li>something <em>(required)</em></li>
-                                <li>Something else <em>(required)</em></li>
-                                <br>
-                            </ul>
+                            Who started the overall trend? 
+                            What is this year's 'snow man'?
+                            Whos portrait is selling on ebay? 
                         </p>
                     </div>
                     <div class="author">Seamore Butts</div>

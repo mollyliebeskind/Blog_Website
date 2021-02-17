@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
     <title>LiebeskindNEWS - Birthday Balloza</title>
     <link rel="stylesheet" href="../css/article-1.css">
+    <script src="../js/index.js"></script>
 </head>
 <body>
     <div class="main-container">
@@ -24,7 +25,7 @@
             </div>
             <div class="thumb">
                 <img class="thumb-image" id="img2"></img>
-                <figcaption id="image-owner">Middle middle, Hannah Liebeskind, of the Liebeskind clan
+                <figcaption id="image-owner">Middle middle, Hannah Liebeskind, of the Dream Team
                         prepares for her 29th birthday bash in what people are 
                         calling "an elogantly mind-bending one-of-a-kind event."</figcaption>
             </div>
@@ -108,15 +109,18 @@
         <div class="additional-content">
             <div id="item4" class="article-card">
                 <div class="article-description">
-                    <h2 class="subscription-title">Sign up to receive the Liebeskind<span>NEWS</span> monthly letter!</h2>
-                    <p class="article-snippet">
-                        Never miss a beat! Stay connected through our monthly updates that bring important information right to  you!
+                    <h2 class="subscription-title" id="subscription-head">
+                        Sign up to receive the Liebeskind<span>NEWS</span> monthly letter!
+                    </h2>
+                    <p class="article-snippet" id="subscription-body">
+                        Never miss a beat! Stay connected through our monthly updates 
+                        that bring important information right to  you!
                     </p>
-                    <div class="subscription">
+                    <div class="subscription" id="subscription-box">
                         <input type="text" name="subscription-box" class="subscription-box" placeholder="Enter your email" required>
                     </div>
-                    <div class="subscription">
-                        <input type="submit" value="Subscribe!" class="submit-button">
+                    <div class="subscription" id="subscription-button">
+                        <input type="submit" value="Subscribe!" class="submit-button" onclick=" return changeSubscription()">
                     </div>
                 </div>
             </div>
@@ -126,7 +130,7 @@
                     <h2 class="article-title">Conquering Distance One Topi at a Time</h2>
                     <p class="article-snippet">
                         Combating the physical barriers to personal interaction, only boy
-                        Daniel of the Liebeskind clan releases Topia - a personalized
+                        Daniel of the Dream Team releases Topia - a personalized
                         experience that brings humanity back to video chatting. 
                     </p>
                     <div class='details'>
@@ -151,7 +155,7 @@
                     <p class="article-snippet">
                         Love is in the air this Valentine's day as family celebrity couple 
                         Bom (Bec and Tom) get engaged - adding 4 new critters to the 
-                        Liebeskind clan. See their story and the critters here. 
+                        Dream Team. See their story and the critters here. 
                     </p>
                     <div class='details'>
                         <p>
