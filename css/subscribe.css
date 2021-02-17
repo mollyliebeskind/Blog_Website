@@ -93,6 +93,7 @@ a {
 }
 
 .nav-right {
+    text-decoration: none;
     font-weight: bold;
     justify-content: flex-end;
     color: #1A535C;
