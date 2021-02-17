@@ -105,7 +105,8 @@ a {
     font-size: 0.8rem;
     line-height: 34px;
     padding: 0% 4% 0% 4%;
-    /* text-align: center; */
+    text-align: center;
+    border: 2px solid red;
 }
 
 .sub-header {
