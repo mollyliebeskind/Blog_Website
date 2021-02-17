@@ -1,13 +1,16 @@
 #hannah-pic-1 {
     background-image: url(../images/h-bday.jpg);
+    padding: 0px 0px 300px 0px;
 }
 
 #hannah-pic-2 {
     background-image: url(../images/dan-wedding.jpg);
+    padding: 0px 0px 300px 0px;
 }
 
 #hannah-pic-3 {
     background-image: url(../images/marathon.jpg);
+    padding: 0px 0px 300px 0px;
 }
 
 #hannah-pic-4 {
@@ -20,6 +23,7 @@
 
 #hannah-pic-6 {
     background-image: url(../images/skication-2018.jpg);
+    padding: 0px 0px 200px 0px;
 }
 
 #hannah-pic-7 {
@@ -36,4 +40,5 @@
 
 #hannah-pic-10 {
     background-image: url(../images/san-diego.jpg);
+    padding: 0px 0px 200px 0px;
 }

@@ -36,6 +36,10 @@ a:active {
     color: blue;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Typography */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -119,14 +123,6 @@ blockquote {
     line-height: 34px;
     width: 90px;
     text-align: center;
-}
-
-#liebeskind-news-logo {
-    color: #1A535C;
-}
-
-#nav-subscribe-button {
-    color: #1A535C;
 }
 
 /* Content */
@@ -214,7 +210,7 @@ blockquote {
 }
 
 .author-image {
-    padding: 0px 0px 200px 00px;
+    padding: 0px 0px 300px 00px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;

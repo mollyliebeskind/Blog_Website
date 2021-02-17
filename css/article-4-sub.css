@@ -1,11 +1,11 @@
 #topia-1 {
     background-image: url(../images/topia-1.png);
-    width: 100%;
-    background-size: cover;
+    background-size: contain;
+    padding: 0px 0px 200px 0px;
 }
 
 #topia-2 {
     background-image: url(../images/topia-2.png);
-    width: 100%;
-    background-size: cover;
+    background-size: contain;
+    padding: 0px 0px 200px 0px;
 }

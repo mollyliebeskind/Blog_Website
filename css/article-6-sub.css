@@ -9,6 +9,8 @@
 #mj-4 {
     background-image: url(../images/mj-4.jpg);
     transform: rotate(90deg);
+    padding: 0px 0px 300px 0px;
+    background-size: cover;
 }
 
 #mj-5 {
@@ -17,8 +19,7 @@
 
 #mj-6 {
     background-image: url(../images/mj-3.jpg);
-    width: 65%;
-    background-size: contain;
+    background-size: cover;
 }
 
 #mj-7 {
@@ -27,6 +28,7 @@
 
 #mj-8 {
     background-image: url(../images/mj-6.jpg);
+    background-size: cover;
 }
 
 #mj-9 {
