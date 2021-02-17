@@ -12,6 +12,21 @@
     "footer";
 }
 
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+  
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 /* Typography */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -402,4 +417,4 @@ a {
         background-position: 100% 2%;
     }
     
-|
+}
