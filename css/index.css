@@ -103,7 +103,7 @@ a {
     font-size: 1rem;
     line-height: 34px;
     padding: 0% 4% 0% 4%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .sub-header {

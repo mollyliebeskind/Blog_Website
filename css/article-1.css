@@ -58,7 +58,7 @@ p {
     font-weight: medium;
     flex: 1; 
     line-height: 1.6;
-    margin: 2rem 0rem 2rem 0rem;
+    /* margin: 2rem 0rem 2rem 0rem; */
 }
 
 .author {
@@ -115,7 +115,7 @@ blockquote {
     font-size: 1rem;
     line-height: 34px;
     padding: 0% 4% 0% 4%;
-    text-align: center
+    /* text-align: center */
 }
 
 /* Content */
