@@ -114,6 +114,7 @@ blockquote {
 }
 
 .nav-right {
+    text-decoration: none;
     font-weight: bold;
     justify-content: flex-end;
     color: #1A535C;
@@ -126,10 +127,10 @@ blockquote {
     text-align: center;
 }
 
-#liebeskind-news-logo {
+/* #liebeskind-news-logo {
     text-decoration: none;
     color: #4ECDC4;
-}
+} */
 /* Content */
 .content {
     display: flex;
