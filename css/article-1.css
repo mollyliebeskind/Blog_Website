@@ -30,15 +30,15 @@ a:visited {
     color: purple;
   }
   
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: blue;
+}
 
 /* Typography */
 body {
@@ -335,7 +335,7 @@ blockquote {
 }
 
 #img7 {
-    background-image: url(../images/mj-1.jpg);
+    background-image: url(../images/mj-1.JPG);
     background-position: 100% 90%;
 }
 
