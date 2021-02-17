@@ -121,6 +121,14 @@ blockquote {
     text-align: center;
 }
 
+#liebeskind-news-logo {
+    color: #1A535C;
+}
+
+#nav-subscribe-button {
+    color: #1A535C;
+}
+
 /* Content */
 .content {
     display: flex;
