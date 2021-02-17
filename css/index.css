@@ -74,6 +74,7 @@ a {
     align-items: center;
     background: #FCFFFD;
     padding: 0% 2% 2% 2%; 
+    float: none;
 }
   
 .nav-left {
@@ -105,6 +106,7 @@ a {
     font-size: 0.8rem;
     line-height: 34px;
     padding: 0% 4% 0% 4%;
+    float: none;
 }
 
 .sub-header {
