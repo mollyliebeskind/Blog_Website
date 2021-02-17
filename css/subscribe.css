@@ -4,7 +4,7 @@
 .main-container{
     display: grid;
     grid-auto-rows: 50px 50px minmax(100px, auto) minmax(40px, auto);
-    width: 100%;
+    padding: 0% 2% 0% 2%;
     grid-template-areas:
     "navigation"
     "sub-header"
@@ -87,7 +87,7 @@ a {
     background: #ffbc00; 
     font-size: 1rem;
     line-height: 34px;
-    padding: 0% 2% 0% 2%;
+    padding: 0% 4% 0% 4%;
     text-align: center
 }
 
