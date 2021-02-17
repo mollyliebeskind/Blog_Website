@@ -446,6 +446,10 @@ blockquote {
         margin: 2% 10% 2% 10%;
     }
 
+    .nav-middle {
+        font-size: 1.4rem;
+    }
+
     .thumb-image,
     .in-article-images {
         width: 400px;

@@ -362,8 +362,20 @@ a {
         background-position: 100% 2%;
     }
 
+    #item6 .bar-thumb {
+        background-position: center top;
+    }
+
+    #item8 .bar-thumb {
+        background-position: 100% 30%;
+    }
+
     .article-description {
         margin: 20px 20px 20px 20px;
+    }
+
+    .navigation {
+        padding: 0% 2% 0% 2%; 
     }
 }
 
