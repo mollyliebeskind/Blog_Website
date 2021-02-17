@@ -4,7 +4,7 @@
 .main-container{
     display: grid;
     grid-auto-rows: 50px 50px minmax(100px, auto) minmax(40px, auto);
-    padding: 0% 2% 0% 2%;
+    /* padding: 0% 2% 0% 2%; */
     grid-template-areas:
     "navigation"
     "sub-header"
