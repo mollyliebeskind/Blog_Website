@@ -185,6 +185,7 @@ blockquote {
 .thumb-image {
     padding: 0% 0% 50% 0%;
     width: 300px;
+    border: 2px solid red;
     background-size: cover;
     background-position: center center;
 }
