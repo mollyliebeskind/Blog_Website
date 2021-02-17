@@ -73,7 +73,7 @@ a {
     justify-content: center;
     align-items: center;
     background: #FCFFFD;
-    padding: 0px 2% 2px 2%; 
+    padding: 0% 2% 2% 2%; 
 }
   
 .nav-left {
@@ -105,8 +105,6 @@ a {
     font-size: 0.8rem;
     line-height: 34px;
     padding: 0% 4% 0% 4%;
-    text-align: center;
-    border: 2px solid red;
 }
 
 .sub-header {
