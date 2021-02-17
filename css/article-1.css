@@ -21,23 +21,23 @@
     "footer";
 }
 
-a:link {
+a {
+    text-decoration: none;
+}
+
+.content a:link {
     text-decoration: none;
     color: blue;
 }
   
 /* mouse over link */
-a:hover {
+.content a:hover {
     color: hotpink;
 }
 
 /* selected link */
-a:active {
+.content a:active {
     color: blue;
-}
-
-a {
-    text-decoration: none;
 }
 
 /* Typography */
