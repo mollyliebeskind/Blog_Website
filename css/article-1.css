@@ -450,7 +450,10 @@ blockquote {
         font-size: 1.4rem;
     }
 
-    .thumb-image,
+    .thumb-image {
+        width: 400px;
+    }
+
     .in-article-images {
         width: 400px;
     }
@@ -497,9 +500,14 @@ blockquote {
         margin: 2% 20% 2% 20%;
     }
 
-    .thumb-image,
-    .in-article-images {
+    .thumb-image {
         width: 600px;
     }
+    /* .thumb-image,
+    .in-article-images {
+        padding: 0px 0px 200px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
 
 }
