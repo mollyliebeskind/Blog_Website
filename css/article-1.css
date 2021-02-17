@@ -94,14 +94,15 @@ blockquote {
 
 #logo {
     background-image: url(../images/fam_logo.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
-    width: 60px;
+    width: 50px;
     height: 100%;
 }
 
 .nav-middle {
     flex:1;
+    color: #4ECDC4;
 }
 
 .nav-right {
@@ -185,7 +186,6 @@ blockquote {
 .thumb-image {
     padding: 0% 0% 50% 0%;
     width: 300px;
-    border: 2px solid red;
     background-size: cover;
     background-position: center center;
 }
@@ -438,7 +438,11 @@ blockquote {
     .additional-content, 
     .author-bio {
         margin: 2% 10% 2% 10%;
+
+    .thumb-image {
+        width: 600px;
     }
+}
 
     .additional-content {
         grid-template-columns: repeat(2, 1fr);

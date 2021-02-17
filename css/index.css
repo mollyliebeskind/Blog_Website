@@ -82,14 +82,15 @@ a {
 
 #logo {
     background-image: url(../images/fam_logo.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
-    width: 60px;
+    width: 50px;
     height: 100%;
 }
 
 .nav-middle {
     flex:1;
+    color: #4ECDC4;
 }
 
 .nav-right {
