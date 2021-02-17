@@ -444,11 +444,16 @@ blockquote {
     .additional-content, 
     .author-bio {
         margin: 2% 10% 2% 10%;
-
-    .thumb-image {
-        width: 600px;
     }
-}
+
+    .thumb-image,
+    .in-article-images {
+        width: 400px;
+    }
+
+    .navigation {
+        padding: 0% 2% 0% 2%; 
+    }
 
     .additional-content {
         grid-template-columns: repeat(2, 1fr);
@@ -486,6 +491,11 @@ blockquote {
     .additional-content,
     .author-bio {
         margin: 2% 20% 2% 20%;
+    }
+
+    .thumb-image,
+    .in-article-images {
+        width: 600px;
     }
 
 }
