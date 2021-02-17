@@ -93,14 +93,13 @@ a {
 }
 
 .nav-right {
-    font-size: 1.2rem;
     font-weight: bold;
     justify-content: flex-end;
     color: #1A535C;
     border-radius: 4px;
     border: 0px;
     background: #ffbc00; 
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 34px;
     width: 90px;
     text-align: center;
